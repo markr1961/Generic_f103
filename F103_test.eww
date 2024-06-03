@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+
+<workspace>
+  <project>
+    <path>$WS_DIR$\F103_test.ewp</path>
+  </project>
+  <batchBuild>
+    <batchDefinition>
+      <name>all</name>
+      <member>
+        <project>F103_test</project>
+        <configuration>F103-debug</configuration>
+      </member>
+      <member>
+        <project>F103_test</project>
+        <configuration>F103-release</configuration>
+      </member>
+    </batchDefinition>
+    <batchDefinition>
+      <name>release</name>
+      <member>
+        <project>F103_test</project>
+        <configuration>F103-debug</configuration>
+      </member>
+      <member>
+        <project>F103_test</project>
+        <configuration>F103-release</configuration>
+      </member>
+    </batchDefinition>
+  </batchBuild>
+</workspace>
+
+
